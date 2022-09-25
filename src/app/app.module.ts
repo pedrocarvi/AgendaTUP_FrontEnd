@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 
 import { LoginComponent } from './LoginComponent/login.component';
 import { ContactListComponent } from './ContactListComponent/contactList.component';
+import { AddContactComponent } from './AddContactComponent/addContact.component';
+
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ContactListComponent
+    ContactListComponent,
+    AddContactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
