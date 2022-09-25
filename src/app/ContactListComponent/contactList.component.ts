@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { faMoon } from "@fortawesome/free-regular-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 @Component({
     selector: 'app-contactList',
@@ -8,5 +9,6 @@ import { faMoon } from "@fortawesome/free-regular-svg-icons";
 })
 
 export class ContactListComponent{
-    faMoon=faMoon;
+    iconoMoon=faMoon;
+    iconoInstagram=faInstagram
 }
