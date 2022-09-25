@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { faMoon } from "@fortawesome/free-regular-svg-icons";
 
 @Component({
     selector: 'app-contactList',
@@ -6,4 +7,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./contactList.component.scss']
 })
 
-export class ContactListComponent{}
+export class ContactListComponent{
+    faMoon=faMoon;
+}
