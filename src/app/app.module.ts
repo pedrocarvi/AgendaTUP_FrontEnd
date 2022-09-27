@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LoginComponent } from './LoginComponent/login.component';
-import { ContactListComponent } from './ContactListComponent/contactList.component';
-import { AddContactComponent } from './AddContactComponent/addContact.component';
+import { LoginComponent } from './public/components/LoginComponent/login.component';
+import { ContactListComponent } from './public/components/ContactListComponent/contactList.component';
+import { AddContactComponent } from './public/components/AddContactComponent/addContact.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
