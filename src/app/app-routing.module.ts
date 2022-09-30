@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './public/components/LoginComponent/login.component';
-import { ContactListComponent } from './public/components/ContactListComponent/contactList.component';
 
 const routes: Routes = [
-  {path:'login', component: LoginComponent},
-  {path:'contactList', component: ContactListComponent}
+  {
+    path: "",
+    loadChildren: () => import('./public/pages/login/login.module').then(m => m.LoginModule)
+  },
+  {
+    path: "contacts",
+    loadChildren: () => import('./public/pages/contacts-list/contacts-list.module').then(m => m.ContactsListModule)
+  }
 ];
 
 @NgModule({
