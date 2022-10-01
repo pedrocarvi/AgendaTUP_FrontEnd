@@ -1,11 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-interface Contacto {
-  nombre: string,
-  apellido: string,
-  celular: string,
-  email: string
-}
+import { Contacto } from 'src/app/core/interfaces/contacts';
 
 @Component({
   selector: 'app-contact-list-list',
