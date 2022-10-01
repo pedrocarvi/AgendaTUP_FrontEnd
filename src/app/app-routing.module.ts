@@ -9,6 +9,10 @@ const routes: Routes = [
   {
     path: "contacts",
     loadChildren: () => import('./public/pages/contacts-list/contacts-list.module').then(m => m.ContactsListModule)
+  },
+  {
+    path: "addContact",
+    loadChildren: () => import('./public/pages/add-contacts/add-contacts.module').then(m => m.AddContactsModule) 
   }
 ];
 

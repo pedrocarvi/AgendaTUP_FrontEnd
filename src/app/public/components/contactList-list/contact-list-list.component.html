@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Celular</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody *ngFor="let contacto of contactos">
+    <tr>
+      <td>{{ contacto.nombre }}</td>
+      <td>{{ contacto.apellido }}</td>
+      <td>{{ contacto.celular }}</td>
+      <td>{{ contacto.email }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -12,4 +12,5 @@ export class ContactsListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }
