@@ -7,7 +7,11 @@ import { AddContactsComponent } from './add-contacts.component';
 
 @NgModule({
   declarations: [
+<<<<<<< HEAD
     AddContactsComponent
+=======
+    AddContactsModule
+>>>>>>> 5440c677bace1149f62be23270c066237de53bc3
   ],
   imports: [
     CommonModule,
