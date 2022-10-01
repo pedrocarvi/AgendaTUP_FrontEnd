@@ -1,0 +1,42 @@
+<!-- <p> Componente formulario </p>
+<button [routerLink]="['/contacts']"> Ir a Contactos </button> -->
+<div class="forms-container">
+  <div class="signin-signup">
+    <form action="#" class="sign-in-form">
+      <h2 class="title">Sign in</h2>
+      <div class="input-field">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Username" />
+      </div>
+      <div class="input-field">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" />
+      </div>
+      <a [routerLink]="['/contacts']">
+        <input type="submit" value="Login" class="btn solid" />
+      </a>
+
+      <p class="social-text">Or Sign in with social platforms</p>
+      <div class="social-media">
+        <a
+          href="https://es-la.facebook.com/login/device-based/regular/login/"
+          class="social-icon"
+        >
+          <fa-icon [icon]="iconoFacebook"> </fa-icon>
+        </a>
+        <a href="https://twitter.com/?lang=es" class="social-icon">
+          <fa-icon [icon]="iconoTwitter"> </fa-icon>
+        </a>
+        <a
+          href="https://accounts.google.com/v3/signin/identifier?dsh=S-1777533157%3A1664317208978862&authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Des%26sa%3DX%26ved%3D0ahUKEwjm4__YgLb6AhWmRLgEHZf3ArgQPAgI&ec=GAlAmgQ&hl=es&flowName=GlifWebSignIn&flowEntry=AddSession"
+          class="social-icon"
+        >
+          <fa-icon [icon]="iconoGoogle"> </fa-icon>
+        </a>
+        <a href="https://ar.linkedin.com" class="social-icon">
+          <fa-icon [icon]="iconoLinkedin"> </fa-icon>
+        </a>
+      </div>
+    </form>
+  </div>
+</div>
