@@ -5,7 +5,9 @@ import { AddContactsRoutingModule } from './add-contacts-routing.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AddContactsModule
+  ],
   imports: [
     CommonModule,
     AddContactsRoutingModule
