@@ -1,6 +1,6 @@
 export interface Contacto {
-    nombre: string,
-    apellido: string,
-    celular: string,
-    email: string
+    nombre?: string,
+    apellido?: string,
+    celular?: string,
+    email?: string
   }
