@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-login-newhere',
-  templateUrl: './login-newhere.component.html',
-  styleUrls: ['./login-newhere.component.scss']
+  templateUrl: './login-newcount.component.html',
+  styleUrls: ['./login-newcount.component.scss']
 })
 export class LoginNewhereComponent implements OnInit {
 
