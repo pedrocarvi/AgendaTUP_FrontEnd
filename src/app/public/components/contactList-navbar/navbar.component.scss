@@ -49,6 +49,24 @@ nav {
             margin: 0 10px;
         }
     }
+
+    button {
+        width: 200px;
+        background-color: #c30000;
+        border: none;
+        outline: none;
+        height: 50px;
+        border-radius: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            background-color: #c60505;
+        }
+    }
         
 }
 
