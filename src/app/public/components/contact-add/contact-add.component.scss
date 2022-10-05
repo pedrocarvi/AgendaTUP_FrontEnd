@@ -37,6 +37,7 @@ h1{
 } 
 
 #Ingrese{
+
 	margin-left: 550px;
 
 	font-size: x-large;
@@ -61,7 +62,15 @@ input{
 
 #botonVolver{
 
-	position:absolute;
-	margin-left: -230px;
+	position:relative;
+	margin-left: -600px;
 
 }
+
+#AgregarContacto{
+
+	position: relative;
+	margin-left: 600px ;
+	
+}
+
