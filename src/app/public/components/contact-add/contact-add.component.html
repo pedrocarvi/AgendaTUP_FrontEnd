@@ -1,25 +1,30 @@
 <nav>
     <div class="Contenedor">
 
-     <h1> Agregar contactos </h1>
+            <h1> Agregar contactos </h1>
+            <form (ngAdd)="AgregarContacto(form)" #form="ngForm">
      
-         <p id="Ingrese"> Ingrese los datos del nuevo contacto :</p>
+            <p id="Ingrese"> Ingrese los datos del nuevo contacto :</p>
     
         
             <p>Nombre:</p>
-            <input type="search" name="" placeholder="Nombre" id="Nombre">
+            <input type="text" name="name" placeholder="Ingrese el nombre..." id="Nombre">
 
             <p>Apellido:</p>
-            <input type="search" name="" placeholder="Apellido" id="Apeliido">
+            <input type="text" name="surname" placeholder="Ingrese el apellido..." id="Apeliido">
             
             <p>Telefono:</p>
-            <input type="search" name="" placeholder="Telefono" id="Telefono">
+            <input type="number" name="telephone" placeholder="Ingrese el numero de telefono..." id="Telefono">
 
             <p>Email:</p>
-            <input type="search" name="" placeholder="Email" id="Email">
+            <input type="email" name="email" placeholder="Ingrese el email..." id="Email" 
+            [(ngModel)]="authData.userName" #email="ngModel" pattern='^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$'>
+
+            <p *ngIf="email.touched && email.errors">Correo electrónico no válido.</p>
 
             <p>Fecha cumpleaños:</p>
-            <input type="search" name="" placeholder="Fecha cumpleaños" id="cumpleaños">
+            
+            <input type="text" name="" placeholder="Ingrese la fecha de cumpleaños..." id="cumpleaños">
          
          
                 <button class="btn transparent" [routerLink]="['/contacts']" id="botonVolver"> Volver </button>
@@ -28,6 +33,14 @@
          
          
           
+                
+                
+                
+                
+                
+        </form>
+            
+            
     </div>
-    
+
 </nav>
