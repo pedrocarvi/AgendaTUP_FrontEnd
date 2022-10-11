@@ -4,7 +4,7 @@
             <h1> Agregar contactos </h1>
             <form (ngAdd)="AgregarContacto(form)" #form="ngForm">
      
-         <p id="Ingrese"> Ingrese los datos del nuevo contacto :</p>
+            <p id="Ingrese"> Ingrese los datos del nuevo contacto :</p>
     
         
             <p>Nombre:</p>
@@ -27,12 +27,12 @@
             <input type="text" name="" placeholder="Ingrese la fecha de cumpleaños..." id="cumpleaños">
          
          
-                <button class="btn transparent" [routerLink]="['/contacts']" id="botonVolver"> Volver </button>
-         
-                <button class="btn transparent" id="AgregarContacto"> Agregar </button>
-         
-         
-          
-    </div>
+            
+            
+            <button class="btn transparent" id="AgregarContacto"> Agregar </button>
+            <button class="btn transparent" [routerLink]="['/contacts']" id="botonVolver"> Volver </button>
+            
+        </div>
+        
+    </nav>
     
-</nav>
