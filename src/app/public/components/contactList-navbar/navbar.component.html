@@ -1,14 +1,17 @@
-<nav>
-    <div class="navbarText-container">
-        <h1> Lista de Contactos </h1>
-        <p> Programacion Web - Universidad Austral </p>
-    </div>
-
-    <input type="search" name="" placeholder="Buscar contacto..." id="buscador">
-    <div class="navbarIcons-container">
-        <fa-icon [icon]="iconoMoon"></fa-icon>
-        <p> Perfil </p>
-    </div>
-
-    <button [routerLink]="['/addContact']"> Agregar contacto </button>
-</nav>
+<header>
+    <nav>
+        <div class="navbarText-container">
+            <h1> Lista de Contactos </h1>
+            <p> Programacion Web - Universidad Austral </p>
+        </div>
+    
+        <input type="search" name="" placeholder="Buscar contacto..." id="buscador">
+        <!-- <div class="navbarIcons-container">
+            <fa-icon [icon]="iconoMoon"></fa-icon>
+            <p> Perfil </p>
+        </div> -->
+    
+        <button [routerLink]="['/addContact']"> Agregar contacto </button>
+    </nav>
+    
+</header>
