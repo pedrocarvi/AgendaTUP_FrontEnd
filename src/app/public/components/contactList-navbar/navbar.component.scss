@@ -4,15 +4,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 
 nav {
     width: 70vw;
     height: 100px;
     color: #dedede;
-    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.2);
     color: #111;
     font-family: 'Roboto';
 
@@ -52,24 +50,40 @@ nav {
         }
     }
 
-    button {
+    .navbarBtns-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .agregarContacto-Btn {
         width: 200px;
-        background-color: #c30000;
+        background: rgb(157,0,148);
+        background: linear-gradient(90deg, rgba(157,0,148,1) 1%, rgba(255,46,0,1) 100%);
         border: none;
         outline: none;
         height: 50px;
-        border-radius: 50px;
+        border-radius: 10px;
         color: #fff;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 400;
+        font-size: 0.9rem;
         margin: 10px 0;
         cursor: pointer;
         transition: 0.5s;
-        &:hover {
-            background-color: #c60505;
-        }
     }
         
+    .btnDropdown {
+        background: rgb(157,0,148);
+        background: linear-gradient(90deg, rgba(157,0,148,1) 1%, rgba(255,46,0,1) 100%);
+        border: none;
+        color: white;
+        height: 50px;
+        width: 150px;
+        font-weight: 400;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
 }
 
 
