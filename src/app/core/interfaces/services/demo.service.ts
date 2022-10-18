@@ -23,3 +23,5 @@ export class DemoService {
 
     // Seguir viendo el archivo pages/contacts-list/contact-list.component.ts
 }
+
+// muestra el estado de la api por consola
