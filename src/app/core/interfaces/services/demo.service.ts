@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-
+// muestra el estado de la api por consola
 @Injectable({
   providedIn: 'root'
 })
