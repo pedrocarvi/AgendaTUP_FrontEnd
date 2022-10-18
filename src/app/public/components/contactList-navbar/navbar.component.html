@@ -1,14 +1,27 @@
-<nav>
-    <div class="navbarText-container">
-        <h1> Lista de Contactos </h1>
-        <p> Programacion Web - Universidad Austral </p>
-    </div>
+<header>
+    <nav>
+        <div class="navbarText-container">
+            <h1> Lista de Contactos </h1>
+            <p> Programacion Web - Universidad Austral </p>
+        </div>
+    
+        <input type="search" name="" placeholder="Buscar contacto..." id="buscador">
 
-    <input type="search" name="" placeholder="Buscar contacto..." id="buscador">
-    <div class="navbarIcons-container">
-        <fa-icon [icon]="iconoMoon"></fa-icon>
-        <p> Perfil </p>
-    </div>
+        <div class="navbarBtns-container">
 
-    <button [routerLink]="['/addContact']"> Agregar contacto </button>
-</nav>
+            
+        <button [routerLink]="['/addContact']" class="agregarContacto-Btn"> Agregar contacto </button>
+
+            <div ngbDropdown class="d-inline-block">
+                <button type="button" class="btn btn-outline-primary btnDropdown" id="dropdownBasic1" ngbDropdownToggle> Perfil </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                  <button ngbDropdownItem> Ver perfil </button>
+                  <button ngbDropdownItem> Modo oscuro </button>
+                  <button ngbDropdownItem> Cerrar sesion </button>
+                </div>
+              </div>
+        </div>
+
+    </nav>
+    
+</header>

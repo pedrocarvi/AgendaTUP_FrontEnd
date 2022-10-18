@@ -11,7 +11,7 @@ export class ContactsListComponent implements OnInit {
 
   // el demo service lo trae de services/demo.service.ts
   constructor(
-    private demo: DemoService // constructor service
+   private demo: DemoService // constructor service
   ) { }
 
   getDataFromDemo() {

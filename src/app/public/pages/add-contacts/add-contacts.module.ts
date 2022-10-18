@@ -6,9 +6,6 @@ import { AddContactsComponent } from './add-contacts.component';
 
 import { ContactAddComponent } from '../../components/contact-add/contact-add.component';
 
-
-
-
 @NgModule({
   declarations: [
     AddContactsComponent,
@@ -16,8 +13,7 @@ import { ContactAddComponent } from '../../components/contact-add/contact-add.co
   ],
   imports: [
     CommonModule,
-    AddContactsRoutingModule
-
+    AddContactsRoutingModule,
   ]
 })
 export class AddContactsModule { }

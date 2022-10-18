@@ -10,6 +10,8 @@ import { ContactListListComponent } from '../../components/contactList-list/cont
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactListCardComponent } from '../../components/contact-list-card/contact-list-card.component';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     ContactsListComponent,
@@ -20,7 +22,8 @@ import { ContactListCardComponent } from '../../components/contact-list-card/con
   imports: [
     CommonModule,
     ContactsListRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ]
 })
 export class ContactsListModule { }
