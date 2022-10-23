@@ -1,44 +1,50 @@
-<header>
+<html>
 
-    
-    <nav>
-        <div class="Contenedor">
 
-        
-           <div class="contenedor-titulos">
-                <h1> Agregar contactos </h1>
-                <p id="uni"> Programacion Web - Universidad Austral </p>
-                
-            
+    <header>
+
+
+        <nav>
+            <div class="Contenedor">
+                <div class="contenedor-titulos">
+
+                    <h1> Agregar contactos </h1>
+                    <h2 id="uni"> Programacion Web - Universidad Austral </h2>
+
+                </div>
+
+
+                <p id="Ingrese"> Ingresar los datos del nuevo contacto :</p>
+
+
+                <p>Nombre:</p>
+                <input type="search" name="" placeholder="Ingrese el nombre..." id="Nombre">
+
+                <p>Apellido:</p>
+                <input type="search" name="" placeholder="Ingrese el apellido..." id="Apeliido">
+
+                <p>Telefono:</p>
+                <input type="search" name="" placeholder="Ingrese el numero..." id="Telefono">
+
+                <p>Email:</p>
+                <input type="search" name="" placeholder="Ingrese el email..." id="Email">
+
+                <p>Fecha cumpleaños:</p>
+                <input type="search" name="" placeholder="Ingrese la fecha de cumpleaños..." id="cumpleaños">
+
+
+                <button class="btn transparent" id="AgregarContacto"> Agregar contacto </button>
+                <button class="btn transparent" [routerLink]="['/contacts']" id="botonVolver"> Volver </button>
+
+
             </div>
-    
-            
-            <p id="Ingrese"> Ingrese los datos del nuevo contacto :</p>
-    
-        
-            <p>Nombre:</p>
-            <input type="search" name="" placeholder="Ingrese el nombre..." id="Nombre">
 
-            <p>Apellido:</p>
-            <input type="search" name="" placeholder="Ingrese el apellido..." id="Apeliido">
-            
-            <p>Telefono:</p>
-            <input type="search" name="" placeholder="Ingrese el numero..." id="Telefono">
 
-            <p>Email:</p>
-            <input type="search" name="" placeholder="Ingrese el email..." id="Email">
 
-            <p>Fecha cumpleaños:</p>
-            <input type="search" name="" placeholder="Ingrese la fecha de cumpleaños..." id="cumpleaños">
-         
-         
-            
-            
-            <button class="btn transparent" id="AgregarContacto"> Agregar contacto </button>
-            <button class="btn transparent" [routerLink]="['/contacts']" id="botonVolver"> Volver </button>
-            
-        </div>
-        
-    </nav>
+        </nav>
+
+    </header>
     
-</header>
+
+
+</html>
