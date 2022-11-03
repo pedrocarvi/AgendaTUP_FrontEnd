@@ -24,6 +24,7 @@
       Perfil
     </button>
 
+<<<<<<< HEAD
     <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="perfil-subMenu">
       <button ngbDropdownItem class="submenu-btn"> 
         <fa-icon [icon]="iconoUser"></fa-icon>
@@ -37,6 +38,17 @@
     </div>
   </div>
 </nav>
+=======
+            <div ngbDropdown class="d-inline-block">
+                <button type="button" class="btn btn-outline-primary btnDropdown" id="dropdownBasic1" ngbDropdownToggle> Perfil </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                  <button ngbDropdownItem> Ver perfil </button>
+                  <button ngbDropdownItem> Modo oscuro </button>
+                  <button ngbDropdownItem [routerLink]="['/']" > Cerrar sesion </button>
+                </div>
+              </div>
+        </div>
+>>>>>>> 0f71bbd8e682c267e0b9d3ed206cc24beb00c4ff
 
 <button [routerLink]="['/addContact']" class="agregarContacto-Btn"> 
 +
