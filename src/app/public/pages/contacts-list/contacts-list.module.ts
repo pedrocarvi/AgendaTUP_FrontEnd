@@ -17,7 +17,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ContactsListComponent,
     NavbarComponent,
     ContactListListComponent,
-   
   ],
   imports: [
     CommonModule,
