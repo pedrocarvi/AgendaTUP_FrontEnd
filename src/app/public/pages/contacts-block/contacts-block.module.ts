@@ -9,6 +9,8 @@ import { ContactsBlockRoutingModule } from './contacts-block-routing.module';
 import { ContactBlockComponent } from '../../components/contact-block/contact-block.component';
 import { ContactsBlockComponent } from './contacts-block.component';
 
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
 @NgModule({
   declarations: [
     ContactBlockComponent,
@@ -17,6 +19,7 @@ import { ContactsBlockComponent } from './contacts-block.component';
   imports: [
     CommonModule,
     ContactsBlockRoutingModule,
+    MatSlideToggleModule
     
   ]
 })
